@@ -14,3 +14,23 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+
+// //slider effect
+// let mainImage = document.querySelector('#MainImage');
+// let smallimg = document.querySelector('.smallImage');
+
+// //logic
+
+// smallimg[0].onclick = function(){
+//     mainImage.src = smallimg[0].src;
+// }
+// smallimg[1].onclick = function(){
+//     mainImage.src = smallimg[1].src;
+// }
+// smallimg[2].onclick = function(){
+//     mainImage.src = smallimg[1].src;
+// }
+// smallimg[3].onclick = function(){
+//     mainImage.src = smallimg[1].src;
+// }

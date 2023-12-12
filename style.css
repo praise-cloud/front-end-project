@@ -646,6 +646,19 @@ footer .copyright{
     font-size: 16px;
     margin-right: 10px;
 }
+
+#productdetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#productdetails .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#productdetails .single-pro-details span{
+    line-height: 25px;
+}
 /*  */
 
 /* Start Media Query */
