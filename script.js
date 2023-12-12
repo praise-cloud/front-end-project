@@ -16,21 +16,23 @@ if(close){
 }
 
 
-// //slider effect
-// let mainImage = document.querySelector('#MainImage');
-// let smallimg = document.querySelector('.smallImage');
+// product slider effect
 
-// //logic
+var mainImage = document.getElementById("MainImage");
+var smallimg = document.getElementsByClassName("small-img");
 
-// smallimg[0].onclick = function(){
-//     mainImage.src = smallimg[0].src;
-// }
-// smallimg[1].onclick = function(){
-//     mainImage.src = smallimg[1].src;
-// }
-// smallimg[2].onclick = function(){
-//     mainImage.src = smallimg[1].src;
-// }
-// smallimg[3].onclick = function(){
-//     mainImage.src = smallimg[1].src;
-// }
+//logic
+
+smallimg[0].onclick = function(){
+    mainImage.src = smallimg[0].src;
+}
+smallimg[1].onclick = function(){
+    mainImage.src = smallimg[1].src;
+}
+smallimg[2].onclick = function(){
+    mainImage.src = smallimg[2].src;
+}
+smallimg[3].onclick = function(){
+    mainImage.src = smallimg[3].src;
+}
+
