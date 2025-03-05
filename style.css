@@ -39,7 +39,7 @@ h1 {
     color: var(--font-header-color);
 }
 
-h2 { 
+h2 {
     font-size: var(--h2-size);
     line-height: var(--h2-line-height);
     color: var(--font-header-color);
@@ -159,7 +159,7 @@ body {
 /* home page start */
 
 #hero{
-    background-image: url("/Project2/Project2/img/hero4.png");
+    background-image: url("./img/hero4.png");
     height: 95vh;
     width: 100%;
     background-size: cover;
@@ -180,7 +180,7 @@ body {
 }
 
 #hero button{
-    background-image: url("/Project2/Project2/img/button.png");
+    background-image: url("./img/button.png");
     background-color: transparent;
     color: var(--nav-li-hover);
     border: 0;
@@ -327,7 +327,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../Project2/img/banner/b2.jpg");
+    background-image: url("./img/banner/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -364,7 +364,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../Project2/img/banner/b17.jpg");
+    background-image: url("./img/banner/b17.jpg");
     min-width: 740px;
     height: 45vh;
     background-size: cover;
@@ -374,7 +374,7 @@ body {
 }
 
 #sm-banner .banner-box2{
-    background-image: url("../Project2/img/banner/b10.jpg");
+    background-image: url("./img/banner/b10.jpg");
 }
 
 #sm-banner .banner-box h4{
@@ -414,7 +414,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../Project2/img/banner/b7.jpg");
+    background-image: url("./img/banner/b7.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -438,11 +438,11 @@ body {
 }
 
 #banner3 .banner-box2{
-    background-image: url("../Project2/img/banner/b4.jpg");
+    background-image: url("./img/banner/b4.jpg");
 }
 
 #banner3 .banner-box3{
-    background-image: url("../Project2/img/banner/b18.jpg");
+    background-image: url("./img/banner/b18.jpg");
 }
 
 #newsletter {
@@ -450,7 +450,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("../Project2/img/banner/b14.png");
+    background-image: url("./img/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -510,7 +510,7 @@ footer .col {
     margin-bottom: 20px;
 }
 
-footer .logo{ 
+footer .logo{
     margin-bottom: 30px;
 }
 
@@ -563,7 +563,7 @@ footer .copyright{
 
 /* shop page */
 #page-header{
-    background-image: url("../Project2/img/banner/b1.jpg");
+    background-image: url("./img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -662,7 +662,7 @@ footer .copyright{
 /* Blog page */
 
 #page-header.blog-header {
-    background-image: url("../Project2/img/banner/b19.jpg");
+    background-image: url("./img/banner/b19.jpg");
 }
 
 #blog{
